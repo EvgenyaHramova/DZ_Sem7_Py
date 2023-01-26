@@ -12,11 +12,11 @@ def view_import (result):
 
 def inp_export():
     name = input('Введите имя: ')
-    surname = input('Введите фамилию: ')
     sec_name = input('Введите отчество: ')
+    surname = input('Введите фамилию: ')
     phone = input('Введите телефона: ')
     comment = input('Ведите признак телефона (домашний, рабочий): ')
-    return '\n', name, surname, sec_name, phone, comment
+    return '\n', name,  sec_name, surname, phone, comment
 
 
 def view_import_no ():
